@@ -12,13 +12,13 @@ LIBS   =
 # Si une ligne est pleine, rajouter '\' en fin de ligne et passer a la suivante.
 
 # pour compiler sans bor-util.c
-EXECS =
+EXECS = rebourfils
 
 # pour compiler avec bor-util.c
-EXECSUTIL = heritub redir2tub debitub
+EXECSUTIL =  
 
 # pour compiler avec bor-util.c et bor-timer.c
-EXECSTIMER =
+EXECSTIMER = triosig
 
 
 %.c%.o :
